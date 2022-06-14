@@ -8,11 +8,7 @@
         @include('partials.navbar')
     {{-- End Navbar --}}
       <div class="container mt-3">
-        <div class="row">
-          <div class="col-12">
             @yield('content')
-          </div>
-        </div>
       </div>
  {{-- script --}}
         @include('partials.script')
