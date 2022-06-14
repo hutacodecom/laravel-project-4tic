@@ -9,7 +9,7 @@
         <a class="nav-link" href="{{ route('dashboard') }}">Home</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="{{ route('contact') }}">Contact</a>
+        <a class="nav-link" href="{{ route('barang.index') }}">Barang</a>
         </li>
         <li class="nav-item">
         <a class="nav-link" href="{{ route('about') }}">About</a>

@@ -14,9 +14,8 @@ class DashboardController extends Controller
 
     public function pagedashboard()
     {
-        $users = User::all(); 
         return view('dashboard', [
-            'users' => $users
+            'users' => User::all(),
         ]);
     }
 
